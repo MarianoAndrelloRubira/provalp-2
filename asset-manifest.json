@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/provalp-2/static/css/main.eefc237f.css",
+    "main.js": "/provalp-2/static/js/main.fc5ec13b.js",
+    "static/media/ricardoeletro.png": "/provalp-2/static/media/ricardoeletro.b6832e7dca74d29262a5.png",
+    "index.html": "/provalp-2/index.html",
+    "main.eefc237f.css.map": "/provalp-2/static/css/main.eefc237f.css.map",
+    "main.fc5ec13b.js.map": "/provalp-2/static/js/main.fc5ec13b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefc237f.css",
+    "static/js/main.fc5ec13b.js"
+  ]
+}
