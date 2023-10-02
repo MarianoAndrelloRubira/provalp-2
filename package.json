@@ -2,7 +2,7 @@
   "name": "bcclp2prova1b",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MarianoAndrelloRubira.github.io/provalp-2",
+  "homepage": "https://MarianoAndrelloRubira.github.io/provalp-2", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

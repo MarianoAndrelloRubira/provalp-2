@@ -8,7 +8,7 @@ export default function GradeProdutos(props){
                 display: 'flex', 
                 flexWrap: 'wrap',
                 alignItems: 'center', 
-                margin: '10px',
+                margin: '10px', 
                 padding: '10px',
                 gap: '20px'}}>
                     {props.listaProdutos.map((produto) => (

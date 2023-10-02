@@ -14,7 +14,7 @@ function App() {
 
   const [produtos, setProdutos] = useState([]);
   return (
-    <div className="App">
+    <div className="App"> 
       <Cabecalho/>
       <BarraBusca/>
       <GradeProdutos listaProdutos={produtos}/>

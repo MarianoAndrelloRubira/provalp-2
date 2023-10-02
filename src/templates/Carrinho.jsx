@@ -18,7 +18,7 @@ export default function Carrinho(props) {
                 padding: '2px',
                 width: '40px'
             }} id='icone-carrinho'>
-                <button id='botao-carrinho'style={{
+                <button id='botao-carrinho'style={{ 
                     backgroundColor: "inherit",
                     border: '0px',
                 }

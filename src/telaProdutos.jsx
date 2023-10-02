@@ -20,7 +20,7 @@ export default function telaProdutos(props){
         image:'',
         qtd:''
     })
-
+ 
     return(
         <>
             <Container>

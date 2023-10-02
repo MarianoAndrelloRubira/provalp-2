@@ -5,7 +5,7 @@ export default function tabelaCarinho(props) {
 
     return (
         <Container>
-            <Button type="button" onClick={() => {
+            <Button type="button" onClick={() => { 
                 props.exibirCarrinho(true);
             }}>Voltar a loja</Button>
             <Table striped bordered hover>

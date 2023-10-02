@@ -5,7 +5,7 @@ export default function Produto(props){
     function Submissao() {
         setProduto(props.produto?.id);
         props.setListaProdutos();
-    }
+    } 
     return(
         <div style={{
             width: '200px',
