@@ -7,22 +7,24 @@ import Produto from "./templates/Produto";
 import Carrinho from "./templates/Carrinho";
 
 export default function telaProdutos(props){
-    const [exibirCarrinho, setExibirCarrinho] = useState(true);
+    const [exibirCarinho, setExibirCarrinho] = useState(true);
     const [listaProdutos, setListaProdutos] = useState([]);
     const [qtdCarrinho,setQtdCarrinho] = useState(0);
+    
     const [produtoInicial,setProdutoInical] = useState({
         id:'',
         title:'',
         price:'',
         description:'',
         category:'',
-        image:''
+        image:'',
+        qtd:''
     })
 
     return(
         <>
             <Container>
-                exibirCarrinho ? <GradeProdutos exibirCarrinho={setExibirCarrinho}
+                exibirCarinho ? <GradeProdutos exibirCarrinho={setExibirCarrinho}
                                     listadeProdutos={listaProdutos}
                                     setListaProdutos={setListaProdutos}/>
                                     <Produto listadeProdutos={listaProdutos}

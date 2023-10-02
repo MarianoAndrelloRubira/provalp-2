@@ -4,7 +4,7 @@ export default function Produto(props){
     const [produto,setProduto] = useState(props.produtoInicial);
     function Submissao() {
         setProduto(props.produto?.id);
-        props.setListaProdutos()
+        props.setListaProdutos();
     }
     return(
         <div style={{
