@@ -1,6 +1,11 @@
 import { useState } from "react";
 export default function Produto(props){
     const [quantidade, setQuantidade] = useState(1);
+    const [produto,setProduto] = useState(props.produtoInicial);
+    function Submissao() {
+        setProduto(props.produto?.id);
+        props.setListaProdutos()
+    }
     return(
         <div style={{
             width: '200px',
@@ -28,7 +33,7 @@ export default function Produto(props){
             </div>
             <div style={{
                 color: 'rgb(0,120,0)',
-            }} id='preco-produto'>
+            }} id='preco-produto' name='preco-produto'>
                 <p><strong>R$ {props.produto?.price}</strong></p>
             </div>
             <div style={{
@@ -51,7 +56,7 @@ export default function Produto(props){
                     padding: '0px',
                     marginRight: '10px',
                 }}>Quantidade:</p>
-                <input 
+                <input
                     style={{
                         width: '40px',
                         border: '0px',
@@ -73,7 +78,7 @@ export default function Produto(props){
                         height: '40px',
                         width: '120px',
                     }}
-                    type='button'>
+                    type='button' onClick={Submissao()}>
                         Comprar
                 </button>
             </div>
